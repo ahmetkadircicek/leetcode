@@ -8,10 +8,4 @@ class Solution(object):
             ways = previousStep + currentStep
             previousStep = currentStep
             currentStep = ways
-            print(i, previousStep,  ways)
-
-            print('---')
         return ways
-        
-solution = Solution()
-solution.climbStairs(7)
